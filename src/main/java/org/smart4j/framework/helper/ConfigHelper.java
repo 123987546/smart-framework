@@ -5,7 +5,7 @@ import org.smart4j.framework.ConfigConstant;
 import org.smart4j.framework.util.PropsUtil;
 
 /**
- * 属性文件助手类
+ * 属性文件助手类xxx
  */
 public final class ConfigHelper {
     private static final Properties CONFIG_PROPS = PropsUtil.loadProps(ConfigConstant.CONFIG_FILE);

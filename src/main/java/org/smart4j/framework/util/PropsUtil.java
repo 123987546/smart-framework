@@ -4,6 +4,7 @@ import java.util.Properties;
 
 public class PropsUtil {
     public static Properties loadProps(String configFile) {
+        return null;
     }
 
     public static String getString(Properties configProps, String jdbcDriver) {

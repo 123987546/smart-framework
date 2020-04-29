@@ -1,4 +1,8 @@
 import org.junit.Test;
+import org.smart4j.framework.annotation.Action;
+import org.smart4j.framework.annotation.Aspect;
+import org.smart4j.framework.annotation.Controller;
+import org.smart4j.framework.annotation.Service;
 
 import java.lang.reflect.Proxy;
 
@@ -25,6 +29,7 @@ public class MainTest {
         helloProxy.say();
     }
     @Test
+    @Action("xx")
     public void test4(){
         CGLIBProxy cglibProxy=new CGLIBProxy();
         Hello helloProxy=cglibProxy.getProxy(HelloImpl.class);
